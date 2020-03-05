@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css ">
+    
+    
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-lg-offset-4">
+                <div class="panel panel-primary" style="margin-top: 20%;">
+                    <div class="panel-heading "> EMPLOYEE DETAILS  </div>
+                    <div class="panel-body">
+                        <form action="insert.php" method="POST">
+                            <div class="form-group">
+                                <label> EMPLOYEE ID </label>
+                                <input type="text" name="emp_id" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label > EMPLOYEE NAME </label>
+                                <input type="text" name="emp_name" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label > EMAIL ID </label>
+                                <input type="text" name="email" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label> DESIGNATION </label>
+                                <input type="text" name="Designation" class="form-control">
+                            </div>
+                            <button class="btn btn-success"> INSERT </button>
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+     </body>
+</html>
