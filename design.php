@@ -13,7 +13,7 @@ while($r = mysqli_fetch_object($res)){
 }
  echo "<pre>";
  print_r ($rs);
-//var_dump ($rs);
+// var_dump ($rs);
 
 ?> 
 
